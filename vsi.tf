@@ -41,6 +41,7 @@ resource "ibm_is_instance" "vsi1" {
   zone    = local.ZONE
   image   = data.ibm_is_image.ubuntu.id
   profile = "bx2-2x8"
+  keys = []
 
   primary_network_interface {
     subnet          = ibm_is_subnet.subnet1.id
