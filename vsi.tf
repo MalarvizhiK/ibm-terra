@@ -1,5 +1,5 @@
 locals {
-  BASENAME = "malar"
+  BASENAME = "my"
   ZONE     = "us-south-1"
 }
 
